@@ -155,6 +155,12 @@ h2 {
  
 }
 
+.tarjeta__empresa {
+  display: inline-block;
+ position:relative;
+ width: 100%;
+ height: 100%;
+}
 /*otro subtitulo: nuestras gorras*/
 .tarjeta__titulo {
   margin: 1rem;

@@ -309,7 +309,9 @@ h2 {
      .tarjeta {
        display: block;
        position: relative;
-       width: 80%;
+       width: 200px;
+       height: 200px;
+       justify-content: center;
        
      }
    }

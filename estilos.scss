@@ -307,11 +307,13 @@ h2 {
 
    @media (max-width: 760px){
      .tarjeta {
-       display: block;
-       position: relative;
-       width: 200px;
-       height: 200px;
+       display: grid;
        justify-content: center;
+       position:relative;
+       width: 40%;
+       height: 40%;
+       
+       
        
      }
    }

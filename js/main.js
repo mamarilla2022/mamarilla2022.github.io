@@ -75,10 +75,45 @@
 //     console.log(ingreso + "X" +i + "=" + resultado);
 // }
 
-let ingreso = prompt("ingrese producto");
+/* let ingreso = prompt("ingrese producto");
 
 while (ingreso != "salir"){
     
     console.log(ingreso);
     ingreso=prompt("ingrese producto")
+} */
+
+/* let ingresarNombre= prompt("ingresar nombre");
+alert("hola " + ingresarNombre);
+let ingresarNombre= prompt("ingresar nombre");
+alert("hola " + ingresarNombre);
+let ingresarNombre= prompt("ingresar nombre");
+alert("hola " + ingresarNombre);
+let ingresarNombre= prompt("ingresar nombre");
+alert("hola " + ingresarNombre); */
+
+//funciones declaración
+/* function ingresarNombreFunction(){
+//ejecucion
+let ingresarNombre= prompt("ingresar nombre");
+alert("hola " + ingresarNombre);
+console.log(ingresarNombre);
+
+} 
+
+//llamado
+/* ingresarNombre() */
+
+//llamado muchas veces aprovechando for
+
+/* for (let i = 0; i <=5; i++)  {
+    ingresarNombreFunction();   */
+    
+/* } */ 
+
+//con parametros
+function conParametros(parametro1,parametro2,parametro3) {
+//ejecucion
+console.log("hola "+ parametro1 + parametro2);
 }
+conParametros()

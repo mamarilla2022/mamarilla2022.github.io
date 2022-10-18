@@ -112,8 +112,65 @@ console.log(ingresarNombre);
 /* } */ 
 
 //con parametros
-function conParametros(parametro1,parametro2,parametro3) {
+/* function conParametros(parametro1,parametro2) {
 //ejecucion
 console.log("hola "+ parametro1 + parametro2);
 }
-conParametros()
+conParametros() */
+
+//objetos
+
+/* let nombre="homer"
+let edad = 39
+let calle="Av Siempreviva 742"
+
+let persona={
+    nombre:"homer",
+    edad:39,
+    calle:"Av Siempreviva 742",
+
+}
+
+let persona2={
+    nombre:"marge",
+    edad:38,
+    calle:"Av Siempreviva 742",
+
+}
+persona.cabello="no tiene"
+/* console.log(persona);
+console.log(persona.nombre); */
+
+//funcion constructora
+
+/* function gorra1(tamanio, color, precio){
+    this.tamanio = tamanio;
+    this.color = color;
+    this.precio = precio;
+}
+
+//para no crear muchos prompt que solicite 
+//datos al usuario se crea una funcion
+function ingresarDatos(params) {
+    return prompt(params)
+}
+
+//aca se llama a la funcion de los prompt
+let tamanio1= ingresarDatos("Ingrese un tamaño")
+let color= ingresarDatos("Ingrese un color")
+
+
+//aca se contruye el objeto
+ persona = new gorra1(tamanio1, color, "$4000");
+console.log(persona);
+
+function carrito(tamanioGorra, colorGorra, precioGorra) {
+    const carritoPersonalizado= new gorra1(tamanioGorra, precioGorra, precioGorra)
+    return carrito
+} */
+
+//arrays
+
+const numeros =[1,2,3,4,5]
+
+console.log(numeros[0])

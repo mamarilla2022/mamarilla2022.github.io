@@ -171,6 +171,84 @@ function carrito(tamanioGorra, colorGorra, precioGorra) {
 
 //arrays
 
-const numeros =[1,2,3,4,5]
+/* const numeros =[1,2,3,4,5]
+const nombres =["juan", "luis","emiliano", "johana"]
+//console.log(nombres[2]);
+//console.log(numeros[0])
+console.log(numeros);
 
-console.log(numeros[0])
+/* for (let index = 0; index < 5; index++) {
+    console.log(numeros[index]);
+    
+}
+ */
+//metodo push agrega elementos al final
+/* numeros.push(6,7)
+console.log(numeros);
+
+//metodo pop quitar elementos
+numeros.pop()
+console.log(numeros);
+
+//metodos shift, splice, join, slice
+//join:
+
+console.log(nombres.join(", "));
+
+//metodo concat
+const nuevaArray=numeros.concat(nombres)
+console.log(nuevaArray); */ 
+
+//funciones de orden superior
+/* let numeros=[1,2,3,4,5,6,7,8,9]
+
+function porCadaUno(arr, fn) {
+    for (const elemento of arr){
+        fn(elemento)
+
+    }
+}
+
+let duplicado=[]
+porCadaUno(numeros,(el)=>{
+    duplicado.push(el*2);
+});
+console.log(duplicado);
+//porCadaUno(numeros,console.log) */
+
+//forEach
+/* let numeros=[1,2,3,4,5,6,7,8,9]
+numeros.forEach((num)=>{
+    console.log(num*2);
+})
+
+//filter
+
+const cursos=[
+    {id:2, nombre: "javaScript", precio: 1500},
+    {id:3, nombre:"javaScript", precio:3500},
+    {id:4, nombre:"react", precio: 4600},
+    {id:5, nombre: "reactJs", precio: 8750},
+    ];
+
+
+const resultado=cursos.filter((el)=> el.nombre.includes("Js"))
+console.log(resultado);
+
+const resultado2=cursos.filter((el)=> el.precio > 2500)
+console.log(resultado2); */
+
+//map
+
+//math
+//console.log(Math)
+
+//dom y eventos. Los ID (#...) son ID en el html
+document.title = "clase 9 | comision 30400";
+const titulo1 = document.querySelector(".titulo span"),
+    titulo2 = document.querySelector("h2");
+titulo1.innerText = "clase 9";
+titulo2.innerText = "eventos en JS";
+const contador = document.querySelector("#contador"),
+btnMas= document.querySelector("#aumentar"),
+btnMenos= document.querySelector("#disminuir");
